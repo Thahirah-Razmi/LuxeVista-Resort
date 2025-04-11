@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <ImageView
+        android:id="@+id/imageViewService"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/default_service_image"
+        android:contentDescription="Service Image"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewServiceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luxurious Spa Treatment"
+            android:textSize="18sp"
+            android:textColor="#2C3E50"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair_display"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewServiceDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relax and rejuvenate with our exclusive spa packages."
+            android:textSize="14sp"
+            android:textColor="#7D7D7D"
+            android:fontFamily="open_sans"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewServicePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: Rs. 5,000"
+            android:textSize="16sp"
+            android:textColor="#D4AF37"
+            android:fontFamily="@font/playfair_display"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonReserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserve"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D4AF37"
+            android:fontFamily="montserrat"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</LinearLayout>

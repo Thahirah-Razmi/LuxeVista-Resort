@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/profileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Your Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:fontFamily="serif"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full name"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your username"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone number"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/travelDatesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Dates"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/travelDatesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your travel dates (e.g., 13-11-2024 to 20-11-2024)"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/preferencesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferences"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingTop="16dp" />
+
+        <EditText
+            android:id="@+id/preferencesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your preferences (e.g., Ocean View Room, Spa Treatment)"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:textSize="16sp"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/preferencesResultsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matching Results will appear here"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/saveProfileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="Save Profile"
+            android:textSize="16sp"
+            android:visibility="visible"
+            android:backgroundTint="#D4AF37"
+            android:textColor="@android:color/white"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="16dp"
+            android:radius="8dp" />
+    </LinearLayout>
+</ScrollView>

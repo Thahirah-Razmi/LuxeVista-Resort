@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5F2">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewServiceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:fontFamily="@font/playfair_display"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewServiceDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Description"
+            android:textSize="16sp"
+            android:textColor="#7D7D7D"
+            android:fontFamily="open_sans"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewServicePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Price"
+            android:textSize="18sp"
+            android:textColor="#D4AF37"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair_display"
+            android:layout_marginBottom="16dp"/>
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D4AF37"
+            android:layout_marginBottom="16dp"/>
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonReserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserve"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D4AF37"
+            android:fontFamily="montserrat"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

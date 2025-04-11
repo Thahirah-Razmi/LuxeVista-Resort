@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <TextView
+        android:id="@+id/textViewBookingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking ID"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#2C3E50"
+        android:fontFamily="@font/playfair_display"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewCheckInDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-In Date"
+        android:textSize="16sp"
+        android:textColor="#1C1C1C"
+        android:fontFamily="open_sans"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewCheckOutDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-Out Date"
+        android:textSize="16sp"
+        android:textColor="#1C1C1C"
+        android:fontFamily="open_sans"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price"
+        android:textSize="16sp"
+        android:textColor="#D4AF37"
+        android:fontFamily="@font/playfair_display"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="#D4AF37"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="#D4AF37"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

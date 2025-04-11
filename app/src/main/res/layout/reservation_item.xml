@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <TextView
+        android:id="@+id/textViewReservationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation ID"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#2C3E50"
+        android:fontFamily="@font/playfair_display"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewReservationService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Name"
+        android:textSize="16sp"
+        android:textColor="#1C1C1C"
+        android:fontFamily="open_sans"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewReservationDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation Date and Time"
+        android:textSize="16sp"
+        android:textColor="#1C1C1C"
+        android:fontFamily="open_sans"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/buttonModifyReservation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Modify"
+            android:backgroundTint="#D4AF37"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonCancelReservation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:backgroundTint="#D4AF37"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

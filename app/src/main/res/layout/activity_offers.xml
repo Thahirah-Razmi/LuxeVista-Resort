@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5F2"
+    android:padding="16dp">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textViewOfferTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Exclusive Offers"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#D4AF37"
+    android:fontFamily="serif"
+    android:paddingBottom="16dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="#FFFFFF"
+    android:layout_gravity="center"
+    android:elevation="4dp">
+
+<TextView
+    android:id="@+id/textViewOffer1Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Luxury Spa Discount"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#2C3E50"
+android:fontFamily="serif"/>
+
+<TextView
+    android:id="@+id/textViewOffer1Description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Get 20% off on all spa services during your stay at LuxeVista."
+    android:paddingTop="8dp"
+    android:textColor="#333333"
+    android:fontFamily="sans-serif" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:background="#FFFFFF"
+android:layout_gravity="center"
+android:elevation="4dp">
+
+<TextView
+    android:id="@+id/textViewOffer2Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Complimentary Breakfast"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#2C3E50"/>
+
+<TextView
+    android:id="@+id/textViewOffer2Description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enjoy a complimentary breakfast each morning of your stay."
+    android:paddingTop="8dp"
+    android:textColor="#333333"/>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:background="#FFFFFF"
+android:layout_gravity="center"
+android:elevation="4dp">
+
+<TextView
+    android:id="@+id/textViewOffer3Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Extended Stay Discount"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#2C3E50"/>
+
+<TextView
+    android:id="@+id/textViewOffer3Description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Book a stay for 7 nights or more and receive an exclusive discount."
+    android:paddingTop="8dp"
+    android:textColor="#333333"/>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:background="#FFFFFF"
+android:layout_gravity="center"
+android:elevation="4dp">
+
+<TextView
+    android:id="@+id/textViewOffer4Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Complimentary Airport Transfer"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#2C3E50"/>
+
+<TextView
+    android:id="@+id/textViewOffer4Description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Get free airport transfer when booking a stay for 3 nights or more."
+    android:paddingTop="8dp"
+    android:textColor="#333333"/>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:background="#FFFFFF"
+android:layout_gravity="center"
+android:elevation="4dp">
+
+<TextView
+    android:id="@+id/textViewOffer5Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Exclusive Room Upgrade"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#2C3E50"/>
+
+<TextView
+    android:id="@+id/textViewOffer5Description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Book a premium room and enjoy a free upgrade to the next available suite."
+    android:paddingTop="8dp"
+    android:textColor="#333333"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnSendPromotionNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify Me"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#D4AF37"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>

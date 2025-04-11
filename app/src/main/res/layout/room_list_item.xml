@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <ImageView
+        android:id="@+id/imageViewRoom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_room_image"
+        android:contentDescription="Room Image" />
+
+    <TextView
+        android:id="@+id/textViewRoomType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocean View Suite"
+        android:textSize="20sp"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:fontFamily="@font/playfair_display"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewRoomDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A luxurious suite with a stunning view of the ocean."
+        android:textSize="16sp"
+        android:textColor="#7D7D7D"
+        android:fontFamily="open_sans"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewRoomPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price Per Night: Rs. 20,000"
+        android:textSize="18sp"
+        android:textColor="#D4AF37"
+        android:fontFamily="@font/playfair_display"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonBookRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D4AF37"
+        android:textSize="16sp"
+        android:fontFamily="montserrat"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

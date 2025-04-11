@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#F8F5F2">
+
+    <ImageView
+        android:id="@+id/imageViewAttraction"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/default_image"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="Attraction Image" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textViewAttractionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attraction Name"
+            android:textSize="18sp"
+            android:textColor="#2C3E50"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair_display"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewAttractionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attraction Description"
+            android:textSize="14sp"
+            android:textColor="#7D7D7D"
+            android:fontFamily="open_sans"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EED9B5"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</LinearLayout>
