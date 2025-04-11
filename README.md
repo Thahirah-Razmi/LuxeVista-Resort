@@ -37,15 +37,19 @@ Developed natively using **Android Studio**, this app ensures a smooth and respo
 
 - Main
 
+![image](https://github.com/user-attachments/assets/541beb91-9cac-4d7c-bf54-bf45ad7fbf7d)
 
 - Register
 
+![image](https://github.com/user-attachments/assets/f872c699-203c-48e7-a406-412b625b5f99)
 
 - Login
 
+![image](https://github.com/user-attachments/assets/3dba2e91-e917-45b6-8dbb-0340b45529f2)
 
 - Home 
 
+![Uploading image.png…]()
 
 - Profile 
 
